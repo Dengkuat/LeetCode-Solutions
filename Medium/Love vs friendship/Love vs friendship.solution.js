@@ -1,0 +1,1 @@
+const wordsToMarks = string =>string.split('').reduce((acc, curr) => acc + curr.charCodeAt() - 96, 0);
